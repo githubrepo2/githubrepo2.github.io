@@ -14,23 +14,7 @@
 
 </head>
     
-<script src="https://mysqljs.com/mysql.js"></script>
-<pre id="output">so far nothing</pre>
-<script>
-    console.log('What is this even');
-    MySql.Execute(
-        "sql8.freemysqlhosting.net",
-        "sql8173720", 
-        "S4EsfUDHt7", 
-        "sql8173720", 
-        "select * from Users", 
-        function (data) {
-            console.log('so far so good');
-            console.log(data);
-        document.getElementById("output").innerHTML = JSON.stringify(data,null,2);
-    });
-</script>
-    
+   
 
 <body>
 <div id="app">
